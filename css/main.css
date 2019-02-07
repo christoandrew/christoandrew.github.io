@@ -35,8 +35,6 @@
  *
  * -------------------------------------------------------------------
  */
-@import url("fonts.css");
-@import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 
 
@@ -1095,11 +1093,10 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	left: 0;
 	top: 0;
 }
 header .logo {
@@ -1312,7 +1309,6 @@ header .logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #111111;
 	opacity: .85;
 }
 
@@ -1513,7 +1509,6 @@ header .logo a {
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 15rem;
 	color: black;
 }
 
@@ -2377,7 +2372,8 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 footer {
-	padding-bottom: 3rem;
+	padding-bottom: 1rem;
+	padding-top: 1.5rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
 }
@@ -2400,6 +2396,7 @@ footer .footer-social {
 	padding: 0;
 	position: relative;
 	top: -.3rem;
+	text-align: center;
 }
 footer .footer-social li {
 	display: inline-block;
@@ -2547,6 +2544,28 @@ text {
 	border-radius: 100%;
 	margin: 0rem 5 0 50;
 	margin-right: 30px;
+}
+
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: radial-gradient(720px at 490px, #081f2b 0%, #061616 100%);
+	color: white;
+	text-align: center;
+}
+
+.col-twelve .footer-social i{
+	font-size: 3em;
+}
+
+.col-twelve .footer-social i.react{
+	color: blue;
+}
+
+.col-twelve.no-margin{
+	margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

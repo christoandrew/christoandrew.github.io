@@ -555,8 +555,8 @@ textarea {
  */
 @media screen and (max-width:600px) {
 	.row {
-		padding-left: 25px;
-		padding-right: 25px;
+		/*padding-left: 25px;
+		padding-right: 25px;*/
 	}
 
 	.row .row {
