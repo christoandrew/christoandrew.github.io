@@ -46,7 +46,7 @@
 
 
 /*
- * Poppins 
+ * Poppins
 ================================================================================ */
 @font-face {
     font-family: 'poppins-bold';
@@ -102,5 +102,10 @@
          url('../fonts/poppins/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    url('../fonts/sans-regular.ttf') format('truetype'),
 }
 
