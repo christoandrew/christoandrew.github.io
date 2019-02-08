@@ -2915,7 +2915,7 @@ footer {
 }
 
 .col-twelve .footer-social i {
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
 .col-twelve .footer-social i.react {
@@ -2924,6 +2924,34 @@ footer {
 
 .col-twelve.no-margin {
     margin: 0;
+}
+
+ul.contact{
+    display: inline-block;
+    list-style: none;
+    font-size: 3rem;
+    margin-top: 16px;
+    position: relative;
+    float: right;
+    padding-top: 10px;
+    border-radius: 2px;
+    text-align: center;
+    border: 1px solid #F1F1F1;
+
+}
+
+ul.contact li{
+    display: inline;
+    padding: 5px 10px;
+}
+
+ul.contact li i{
+    font-size: 1.5rem;
+    color: white;
+}
+
+ul.contact li a{
+
 }
 
 /*# sourceMappingURL=main.css.map */
