@@ -71,12 +71,14 @@ html, body {
     height: 100%;
 }
 
+
+
 body {
-    background: #151515;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     font-family: "Product Sans", serif;
     font-size: 1.7rem;
     line-height: 3rem;
-    color: #6e6e6e;
 }
 
 /**
@@ -105,7 +107,7 @@ a:hover, a:focus, a:active {
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
     font-family: "poppins-semibold", sans-serif;
-    color: #313131;
+    color: #FFFFFF;
     font-style: normal;
     text-rendering: optimizeLegibility;
     margin-bottom: 2.1rem;
@@ -1214,7 +1216,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h1 {
     font-family: "poppins-semibold", serif;
     font-size: 3.6rem;
-    color: #313131;
     line-height: 1.25;
     margin-bottom: 1.2rem;
 }
@@ -1492,7 +1493,6 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 #intro {
-    background: radial-gradient(720px at 490px, #081f2b 0%, #061616 100%) no-repeat center bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -2438,7 +2438,6 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 #contact {
-    background: #151515;
     padding-top: 12rem;
     padding-bottom: 7.2rem;
 }
@@ -2909,7 +2908,6 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background: radial-gradient(720px at 490px, #081f2b 0%, #061616 100%);
     color: white;
     text-align: center;
 }
